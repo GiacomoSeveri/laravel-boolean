@@ -8,4 +8,5 @@ use Illuminate\Database\Eloquent\Model;
 class Eggs extends Model
 {
     use HasFactory;
+    protected $fillable = ['color', 'content', 'type', 'size']
 }
