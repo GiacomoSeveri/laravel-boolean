@@ -3,15 +3,33 @@
 return [
     [
         "color" => "blu",
-        "contenuto" => "gioco",
-        "tipo_cioccolato" => "latte",
-        "grandezza" => "2 metri"
+        "content" => "macchinina",
+        "type" => "latte",
+        "size" => "30cm"
 
     ],
     [
-        "color" => "blu",
-        "contenuto" => "gioco",
-        "tipo_cioccolato" => "latte",
-        "grandezza" => "2 metri"
+        "color" => "verde",
+        "content" => "portachiavi",
+        "type" => "latte",
+        "size" => "30cm"
+    ],
+    [
+        "color" => "rosso",
+        "content" => "collana",
+        "type" => "fondente",
+        "size" => "30cm"
+    ],
+    [
+        "color" => "giallo",
+        "content" => "matite colorate",
+        "type" => "cianco",
+        "size" => "30cm"
+    ],
+    [
+        "color" => "rosa",
+        "content" => "orologio",
+        "type" => "latte con nocciole",
+        "size" => "30cm"
     ]
 ];
