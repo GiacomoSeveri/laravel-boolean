@@ -7,7 +7,7 @@
     <title>Document</title>
     @vite('resources/js/app.js')
 </head>
-<body>
+<body class="d-flex flex-column justify-content-between">
     @include('includes.header')
     
     <main>

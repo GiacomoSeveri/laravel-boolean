@@ -5,8 +5,8 @@ namespace App\Models;
 use Illuminate\Database\Eloquent\Factories\HasFactory;
 use Illuminate\Database\Eloquent\Model;
 
-class Eggs extends Model
+class Egg extends Model
 {
     use HasFactory;
-    protected $fillable = ['color', 'content', 'type', 'size']
+    protected $fillable = ['url', 'name', 'color', 'content', 'type', 'size'];
 }
